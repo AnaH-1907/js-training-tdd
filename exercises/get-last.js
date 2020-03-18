@@ -9,6 +9,15 @@
 
 // Your code:
 
+
+function getLast(array) {
+    if (array){
+        console.log(array[array.length - 1]);
+        let resultat = array[array.length - 1];
+        return resultat;
+    } 
+}
+
 //* Begin of tests
 const assert = require('assert');
 
