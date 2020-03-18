@@ -9,6 +9,15 @@
 
 // Your code:
 
+
+function getFirst(array) {
+    if (array){
+        console.log(array[0]);
+        let resultat =  array[0];
+        return resultat;
+    } 
+}
+
 //* Begin of tests
 const assert = require('assert');
 
