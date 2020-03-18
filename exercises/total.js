@@ -8,6 +8,17 @@
 
 // Your code:
 
+function total(arr) {
+    var s = 0
+    for(var i= 0; i<arr.length; i++){
+        s = s + arr[i]
+    }
+    return s;
+}
+
+console.log(total([4,6,34,7]));
+
+
 //* Begin of tests
 const assert = require('assert');
 
